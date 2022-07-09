@@ -4,7 +4,7 @@
 
 * Iniciar a aplicação `docker-compose up --build`.
 * Criar o banco de dados `docker-compose exec php php artisan migrate --seed`.
-* Iniciar o _Laravel Horizon_ `docker-compose exec -d php php artisan horizon`.
+* Iniciar o __Laravel Horizon__ `docker-compose exec -d php php artisan horizon`.
 * _Opcional_:
   * `docker-compose exec php composer install` para instalar as dependências do Laravel.
   * `docker-compose exec php cp .env.example .env` para criar o arquivo `.env` (_obrigatório_).
@@ -12,7 +12,7 @@
 
 ## Documentação
 
-O projecto foi construido utilizando o framework [Laravel](http://www.laravel.com). Abaixo os _endpoints_ e _exemplos_ de respostas:
+O projecto foi construido utilizando o framework [Laravel](http://www.laravel.com). Abaixo os _endpoints_ e _exemplos de respostas_:
 
 ## Lista todos os usuários
 
